@@ -12,6 +12,9 @@ import { RestProvider } from '../providers/rest/rest';
 import { LoginPage} from '../pages/login/login';
 import { RegisterPage} from '../pages/register/register';
 import { LoggedinPage} from '../pages/loggedin/loggedin';
+import { ContactPage} from '../pages/contact/contact';
+import { AboutPage} from '../pages/about/about';
+import { TabsPage } from '../pages/tabs/tabs';
 
 const firebaseAuth = {
     apiKey: "AIzaSyCNjbGMPtQiJyqKj4bGQ3T6skYz2Ax5VK8",
@@ -27,7 +30,10 @@ const firebaseAuth = {
     HomePage,
     LoginPage,
     RegisterPage,
-    LoggedinPage
+    LoggedinPage,
+    TabsPage,
+    AboutPage,
+    ContactPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,10 @@ const firebaseAuth = {
     HomePage,
     LoginPage,
     RegisterPage,
-    LoggedinPage
+    LoggedinPage,
+    TabsPage,
+    AboutPage,
+    ContactPage
   ],
   providers: [
     StatusBar,
