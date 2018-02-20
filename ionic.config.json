@@ -1,0 +1,8 @@
+{
+  "name": "binview",
+  "app_id": "9b1a7058",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
